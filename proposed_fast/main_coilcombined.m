@@ -89,8 +89,8 @@ for i=1:maxiter
     eps = max(eps/eta,epsmin);
     Xr = (sqrt(n1*n2))*ifft2(x);
     SNR_iter = 20*log10(norm(X0(:))/norm(Xr(:)-X0(:)));
-%     SNR = [SNR SNR_iter];
-%     figure(2),plot(SNR);title('SNR');drawnow;
+    SNR = [SNR SNR_iter];
+    figure(2),plot(SNR);title('SNR');drawnow;
     ti = [ti toc];
     if i>1
         if abs(cost(end)-cost(end-1))/abs(cost(end))<=1e-6
