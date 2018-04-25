@@ -21,7 +21,7 @@ This file recovers the multi-channel Fourier data from 12 fold undersampled Four
 Code to initialize the parameter ![](https://latex.codecogs.com/gif.latex?%24%5Cepsilon%24) for the IRLS optimization algorithm.
 
 ### estimate_mu.m
-Code to estimate the polynomial ![](https://latex.codecogs.com/gif.latex?%24%5Cmu%24), which is to be used to form the matrix D. Note that this matrix appears in equation (26) of the paper.
+Code to estimate the polynomial ![](https://latex.codecogs.com/gif.latex?%24%5Cmu%24), which is used to form the matrix D. Note that this matrix appears in equation (26) of the paper.
 
 ### pre_computeChC.m
 Code to compute G that appears in equation (26) of the paper.
