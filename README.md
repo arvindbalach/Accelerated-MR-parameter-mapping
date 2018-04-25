@@ -57,6 +57,9 @@ Computes the gradient of the first term in equation (19) of the paper.
 ### compute_cost.m
 Code for evaluating the cost function (mentioned above).
 
+## Associated codes
+### operators_sc(fwd,bwd) and operators_mc(fwd,bwd)
+These folders contain codes for defining the forward and backward operators for single and multi-channel cases respectively.
 
 
 
