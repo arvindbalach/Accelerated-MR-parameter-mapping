@@ -54,5 +54,9 @@ Code for solving equation (17) of the paper. It corresponds to the single channe
 ### regul_direct.m
 Computes the gradient of the first term in equation (19) of the paper.
 
+### compute_cost.m
+Code for evaluating the cost function (mentioned above).
+
+
 
 
