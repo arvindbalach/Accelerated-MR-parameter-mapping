@@ -12,5 +12,8 @@ with and without introducing approximations respectively. ![](https://latex.code
 
 ## Proposed fast codes
 ## main_coilcombined
+This file recovers the coil combined Fourier data from 30% uniform random Fourier measurements. Run this code to replicate the results in Figure 4 of the paper.
 
+## main_multichannel
+This file recovers the multi-channel Fourier data from 12 fold undersampled Fourier measurements. Run this code to replicate the results in Figure 5 of the paper.
 
