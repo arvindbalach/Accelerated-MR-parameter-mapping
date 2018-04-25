@@ -82,3 +82,5 @@ To create the single channel data, we performed a principal component analysis (
 2) mask0_ur(0.3)forpm.mat: This mat file corresponds to the sampling mask whose size is equal to the size of the image series. The ones in each frame of the mask correspond to the sampled locations.
 3) T2multicoildata.mat: This represents the multi-channel Fourier data (N1xN2xNtxNcoil).
 4) truthforT2.mat: This mat file is obtained from a SENSE reconstruction using the multichannel data. The dimension is N1xN2xNt.
+5) mask0var()forpm.mat: This mat file corresponds to the sampling mask.
+6) mask_improved_dataset2.mat : This is another sampling mask which is used to mask the background and CSF regions in the image series; the maps are then estimated from the masked data.
