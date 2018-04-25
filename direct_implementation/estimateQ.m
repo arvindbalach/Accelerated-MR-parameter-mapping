@@ -1,5 +1,5 @@
 function [Q,s]= estimateQ(x,eps,filter_siz,q)
-%%% Solves sub-problem 1: estimateQ estimates the matrix Q, which is required for solving eqn (18)
+%%% Solves sub-problem 1: estimateQ estimates the matrix Q, which is required for solving eqn (17)
 %%%% Refer section weight update in the paper.
 x = gather(x);
 x = fftshift(fftshift(x,1),2);
