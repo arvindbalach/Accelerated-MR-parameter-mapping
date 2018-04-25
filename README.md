@@ -76,7 +76,7 @@ The codes inside the folder return the indices corresponding to the Fourier data
 Code used to form the Toeplitz matrix. Rearranges blocks of data into columns of the matrix.
 
 #### col2imstep.m
-Code used to extract the data from the Toeplitz matrix. Rearranges columns of the matrix into blocks.
+ Code to rearrange the columns of the Toeplitz matrix into blocks of data. This is used to implement the adjoint operator that appears when the graient of equation (17) is computed.
 
 # Data
 A fully sampled axial 2-D dataset was acquired on a Siemens 3T Trio scanner with 12 coils using a turbo spin echo sequence. The scan parameters were: TR = 2500 ms, slice thickness = 5 mm, Matrix size = 128x128 and FOV = 22x22 ![](https://latex.codecogs.com/gif.latex?%24%5Cmbox%7Bcm%7D%5E%7B2%7D%24). By varying the echo times (TE) from 10 to 120 ms, we acquired T2 weighted images at twelve equispaced TE.
