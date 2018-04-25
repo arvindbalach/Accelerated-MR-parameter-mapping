@@ -73,6 +73,7 @@ Code used to extract the data from the Toeplitz matrix. Rearranges columns of th
 
 # Data
 A fully sampled axial 2-D dataset was acquired on a Siemens 3T Trio scanner with 12 coils using a turbo spin echo sequence. The scan parameters were: TR = 2500 ms, slice thickness = 5 mm, Matrix size = 128x128 and FOV = 22x22 ![](https://latex.codecogs.com/gif.latex?%24%5Cmbox%7Bcm%7D%5E%7B2%7D%24). By varying the echo times (TE) from 10 to 120 ms, we acquired $T_2$ weighted images at twelve equispaced TE.
+
 For the multi-channel case, the data was retrospectively under-sampled using a combination of uniform Cartesian and a pseudo-random variable density sampling patterns. Specifically, we uniformly undersampled the x and y directions by a factor of 2 and refer this sampling mask as a 2x2 uniform Cartesian mask. To increase the incoherence between the frames, we also shifted every frame of the mask by zero or one unit (done randomly) along the x and y directions. We achieved an acceleration factor of twelve by combining the four fold uniform Cartesian mask with a three fold pseudo-random variable density undersampling pattern.
 
 
