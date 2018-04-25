@@ -48,7 +48,7 @@ This file recovers the coil combined Fourier data from 30% uniform random Fourie
 Code to initialize the parameter ![](https://latex.codecogs.com/gif.latex?%24%5Cepsilon%24) for the IRLS optimization algorithm.
 
 ### estimateQ.m
-Code for estimating the matrix Q, which is then used to solve equation (17) in the paper. For details, refer to the Weight update section in the paper.
+Code for estimating the weight matrix which is needed to solve equation (17) in the paper. For details, refer to the Weight update section in the paper.
 
 ### xsub_sc_direct.m
 Code for solving equation (17) of the paper. It corresponds to the single channel case.
