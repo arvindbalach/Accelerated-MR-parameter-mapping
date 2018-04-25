@@ -61,5 +61,15 @@ Code for evaluating the cost function (mentioned above).
 ### operators_sc(fwd,bwd) and operators_mc(fwd,bwd)
 These folders contain codes for defining the forward and backward operators for single and multi-channel cases respectively.
 
+### getkspaceindices
+The codes inside the folder return the indices corresponding to the Fourier data and the filter coefficients. The indices returned are consistent with matlab convention.
+
+### direct-liftandunlift-codes
+#### im2colstep.m
+Code used to form the Toeplitz matrix. Rearranges blocks of data into columns of the matrix.
+
+#### col2imstep.m
+Code used to extract the data from the Toeplitz matrix. Rearranges columns of the matrix into blocks.
+
 
 
