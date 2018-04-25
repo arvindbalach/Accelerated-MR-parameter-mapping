@@ -44,7 +44,7 @@ Code for evaluating the cost function (mentioned above).
 Estimates the T2 map using the time series of images. 
 
 ## Direct implementation codes
-The codes solve equations (17) and (18) directly without introducing any FFT based approximations. 
+The codes solve equations (17) and (18) directly without introducing any approximations. 
 
 ### main_coilcombined.m
 This file recovers the coil combined Fourier data from 30% uniform random Fourier measurements, without introducing approximations. The results obtained are shown in Figure 3 of the paper.
