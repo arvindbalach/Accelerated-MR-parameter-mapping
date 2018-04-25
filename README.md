@@ -13,6 +13,9 @@ The main files inside the proposed_fast and direct_implementation folders solve 
 with and without introducing approximations respectively. ![](https://latex.codecogs.com/gif.latex?%24%5Cmu%24) is the regularization parameter, ![](https://latex.codecogs.com/gif.latex?%24T%28%5Cwidehat%20%5Crho%29%24) is the Toeplitz matrix formed from the Fourier samples ![](https://latex.codecogs.com/gif.latex?%24%5Cwidehat%20%5Crho%24), ![](https://latex.codecogs.com/gif.latex?%24%5C%7CX%5C%7C_p%24) is the Schatten p-norm of ![](https://latex.codecogs.com/gif.latex?%24X%24), ![](https://latex.codecogs.com/gif.latex?%24A%24) is the Fourier undersampling operator and ![](https://latex.codecogs.com/gif.latex?%24b%24) represents undersampled Fourier measurements. Please refer to the above mentioned publication to get more information on the notations.
 
 ## Proposed fast codes
+
+The codes basically solve equation (17) and (18) in a very efficient manner. Fourier domain approximations are introduced which eliminate the need to store the Toeplitz matrix.
+
 ### main_coilcombined.m
 This file recovers the coil combined Fourier data from 30% uniform random Fourier measurements. Run this code to replicate the results in Figure 4 of the paper.
 
@@ -41,6 +44,8 @@ Code for evaluating the cost function (mentioned above).
 Estimates the T2 map using the time series of images. 
 
 ## Direct implementation codes
+The codes solve equations (17) and (18) directly without introducing any FFT based approximations. 
+
 ### main_coilcombined.m
 This file recovers the coil combined Fourier data from 30% uniform random Fourier measurements, without introducing approximations. The results obtained are shown in Figure 3 of the paper.
 
