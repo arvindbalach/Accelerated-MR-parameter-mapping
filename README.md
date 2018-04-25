@@ -42,4 +42,17 @@ Estimates the T2 map using the time series of images.
 ### main_coilcombined.m
 This file recovers the coil combined Fourier data from 30% uniform random Fourier measurements, without introducing approximations. The results obtained are shown in Figure 3 of the paper.
 
+### initial_epsilon.m
+Code to initialize the parameter ![](https://latex.codecogs.com/gif.latex?%24%5Cepsilon%24) for the IRLS optimization algorithm.
+
+### estimateQ.m
+Code for estimating the matrix Q, which is then used to solve equation (17) in the paper. For details, refer to the Weight update section in the paper.
+
+### xsub_sc_direct.m
+Code for solving equation (17) of the paper. It corresponds to the single channel case.
+
+### regul_direct.m
+Computes the gradient of the first term in equation (19) of the paper.
+
+
 
